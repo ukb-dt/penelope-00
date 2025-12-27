@@ -287,6 +287,97 @@
             </div>
           </section>
 
+
+          <section class="card">
+          <h1>The Z-Score Engine: Cradle to Grave Wattage</h1>
+
+          <div style="overflow-x:auto; padding:20px 0;">
+              $$\text{LS:}\ \mathcal{N}(\mu_{age},\sigma_{age})
+              \;\longrightarrow\;
+              \text{UB:}\ W_{raw}(t)
+              \;\longrightarrow\;
+              \text{SGD:}\ z = \frac{W - \mu}{\sigma}
+              \;\longrightarrow\;
+              \text{UI/UX:}\ \text{Trajectory}(z_t)
+              \;\longrightarrow\;
+              \text{EC:}\ \text{Vitality Integral}$$
+          </div>
+
+          <div style="padding: 0 20px;">
+          <h3>1. LS: The Population Prior $\mathcal{N}(\mu, \sigma)$</h3>
+          <p>
+          The Latent Space is no longer a stone; it is the <strong>reference population</strong>.
+
+
+
+
+
+
+
+          For every age (day 1 to year 100) and sex, there exists a distribution of physiological power capacity.
+          This is the background radiation of human potential.
+          The "Stone" is simply  (the mean) at any given age.
+          </p>
+
+
+          <h3>2. UB: $W_{raw}(t)$ — The Input</h3>
+          <p>
+            User Behavior is the raw wattage captured by the wearable.
+            <br>
+            <em>The 3-month-old kicking:</em> 2 Watts.<br>
+            <em>The 45-year-old son walking:</em> 123 Watts.<br>
+            <em>The 86-year-old father walking:</em> 77 Watts.<br>
+            <br>
+            Raw numbers are deceiving. 77W looks "less" than 123W, but context is everything.
+          </p>
+
+          <h3>3. SGD: $z = \frac{W - \mu}{\sigma}$ — The Normalization</h3>
+          <p>
+            <strong>This is the "Fried Killer."</strong>
+            <br><br>
+            We don't ask "Is he frail?" (Binary).
+            We calculate the Z-score distance from the mean for his specific demographic.
+            <br><br>
+            <strong>Son (45yo):</strong> $123W \rightarrow z = +0.2$ (Average active adult).
+            <br>
+            <strong>Father (86yo):</strong> $77W \rightarrow z = +1.5$ (Elite for his age).
+            <br><br>
+            Suddenly, the physics flips. The father is "stronger" relative to his constraints than the son.
+            <strong>Frailty is simply defined as $z < -2.0$.</strong> We don't need a separate checklist; it falls out of the math naturally.
+          </p>
+
+          <h3>4. UI/UX: Trajectory $(z_t)$ — The Twin</h3>
+          <p>
+            The Digital Twin doesn't display raw watts; it displays the <strong>Z-trajectory</strong>.
+            <br><br>
+            A flat line at $z=0$ means you are aging perfectly in sync with the population curve.
+            A downward slope means accelerated aging (pathology).
+            An upward slope means effective rehabilitation.
+            <br><br>
+            Visualizing $z$ removes the noise of biological decay and isolates <em>volition and health</em>.
+          </p>
+
+          <h3>5. EC: The Vitality Integral</h3>
+          <p>
+            The ecosystem view allows us to price risk and intervene.
+            <br><br>
+            <strong>Cradle:</strong> Low $z$ predicts developmental delay.<br>
+            <strong>Midlife:</strong> Low $z$ predicts metabolic syndrome.<br>
+            <strong>Grave:</strong> Low $z$ predicts falls and dependency.<br>
+            <br>
+            <p class="profound-statement">
+              One metric. One scale. One continuous accounting of survival from the first breath to the last.<br>
+              <em><br>
+            This is the "killer app" logic for the digital twin.</em> <br>— Gemini 3.0
+            </p>
+
+          </p>
+
+          
+
+          </div>
+          </section>
+
   </main>
   <!-- footer -->
   <footer class="footer">
