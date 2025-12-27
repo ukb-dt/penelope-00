@@ -145,59 +145,106 @@
   <!-- main[sections], footer -->
   <main class="page wrap-max">
 
-    <!-- section class="card" -->
+
+<!-- section class="card" -->
+
       <section class="card">
-      <h1>The Stone Algorithm: From Mass to Maintenance</h1>
-      <div style="overflow-x:auto; padding:20px 0;">
-          $$
-          \text{LS:}\ (\text{Stone}, \text{Mass})
-          \;\longrightarrow\;
-          \text{UB:}\ \text{Power}(t \mid \text{Body}) + \text{Drift}
-          \;\longrightarrow\;
-          \text{SGD:}\ \frac{d(\text{Work})}{dt}
-          \;\longrightarrow\;
-          \text{UI/UX:}\ \text{FP}^2 \pm \text{Risk}
-          \;\longrightarrow\;
-          \text{EC}\ \int \text{Survival}\,dt + \text{Ju stice}
-          $$
-      </div>
+        <h1>The Stone Algorithm: From Landscape to Ecosystem</h1>
 
-      <div style="padding: 0 20px;">
-      <h3>1. LS: Latent Space  → The Stone (The Prior)</h3>
-      <p>
-      The <strong>Stone (14 lbs)</strong> is the initial latent embedding. It is the <em style="font-family:serif;">a priori</em> constant that reconciles the two fundamental domains of human existence: <strong>Biology</strong> (the neonate) and <strong>Trade</strong> (the merchandise). It represents the "human-carryable magnitude"—the fundamental unit of what matters ($x$) and what weighs ($E$).
-      </p>
+                <div style="overflow-x:auto; padding:20px 0;">
+                $$
+                \text{LS:}\ (E, x)
+                \;\longrightarrow\;
+                \text{UB:}\ E(t\mid x)+\epsilon
+                \;\longrightarrow\;
+                \text{SGD:}\ \frac{dE_x}{dt}
+                \;\longrightarrow\;
+                \text{UI/UX:}\ \frac{dE_{\bar{x}}}{dt}\ \pm\ z\sqrt{\frac{d^2E_x}{dt^2}}
+                \;\longrightarrow\;
+                \text{EC:}\ \int E_x\, dt + \epsilon_x t + C_x
+                $$
+                </div>
 
-      <h3>2. UB: User Behavior $E(t\mid x)+\epsilon$ → The Walk (The Function)</h3>
-      <p>
-        The static stone becomes dynamic. This is the <strong>86-year-old male</strong> walking for 45 minutes or the <strong>neonate</strong> on the hanging scale. The equation shifts from measuring <em>mass</em> to measuring <em>capacity</em>. The $\epsilon$ represents the biological noise—the stumble, the pause, the pulse drift.
-      </p>
+                <div style="padding: 0 20px;">
 
-      <h3>3. SGD: $\frac{dE_x}{dt}$ → Power (The Diagnostic)</h3>
-      <p>
-        <strong>This is the hinge.</strong> We move from Weight (lbs) to <strong>Power (Watts)</strong>.
-        <br>
-        $$77\,\text{W} \quad \text{vs} \quad 123\,\text{W}$$
-        The derivative of energy over time is the true measure of frailty. It is the slope of the gradient: how steep is the cost of living?
-      </p>
+                <h3>1. LS: $(E, x)$ — Static Potential</h3>
+                <p>
+                The <strong>Landscape</strong> is the world before motion.
+                A hilltop, a valley, a basin.
+                <br><br>
+                It defines <em>possibility</em>, not behavior.
+                Like gravity before rain, it encodes constraints without trajectories.
+                The stone belongs here: an invariant of scale, a unit that fits the terrain of human carrying.
+                </p>
 
-      <h3>4. UI/UX: $\frac{dE_{\bar{x}}}{dt}\ \pm\ z\sqrt{\dots}$ → FP² (The Signal)</h3>
-      <p>
-        Here lies the upgrade to <strong>Linda Fried’s Phenotype (FP²)</strong>. It is no longer a binary checklist (Frail/Not Frail). It is a continuous signal with a confidence interval.
-        The term $\pm z\sqrt{\frac{d^2 E_x}{dt^2}}$ captures the <strong>volatility</strong> (fall risk, heart rate variability). It answers: <em>"Is this system stable, or is it about to crash?"</em>
-      </p>
+                <h3>2. UB: $E(t\mid x)+\epsilon$ — Descent (Encoding)</h3>
+                <p>
+                This is where the rain falls.
+                <br><br>
+                Raindrops do not choose basins; they reveal them.
+                Likewise, organisms animate the landscape through motion:
+                walking, eating, fleeing, adapting.
+                <br><br>
+                Phase II is <strong>encoding</strong>:
+                trajectories traced under perturbation.
+                Temperature, altitude, predators, oxygen, time pressure—all appear as $\epsilon$.
+                What persists across perturbations becomes signal.
+                </p>
 
-      <h3>5. EC: $\int E_x\,dt + \dots$ → The Integral (Survival & Justice)</h3>
-      <p>
-        The final integration.
-        For the <strong>Neonate</strong>: The integral is <strong style="color:green;">Growth/Survival</strong>.
-        For the <strong>Merchant</strong>: The integral is <strong style="color:darkblue;">Value/Fairness</strong>.
-        For the <strong>Digital Twin</strong>: The integral is the <strong style="color:darkred;">Life-Span/Health-Span</strong>.
-        <br><br>
-        <em>The scale was always meant to measure the cost of remaining alive.</em>
-      </p>
-      </div>
-      </section>
+                <h3>3. SGD: $\frac{dE_x}{dt}$ — Latent Space (Basins)</h3>
+                <p>
+                Phase III is the <strong>latent space</strong>.
+                <br><br>
+                Not the landscape itself, but the <em>basins discovered by descent</em>.
+                This is exactly the autoencoder analogy:
+                SGD does not invent structure; it <strong>finds compressible manifolds</strong>.
+                <br><br>
+                Power (Watts) measures how steep a descent the system can sustain without collapse.
+                A robust organism occupies deeper, wider basins.
+                </p>
+
+                <h3>4. UI/UX: $\frac{dE_{\bar{x}}}{dt}\ \pm\ z\sqrt{\frac{d^2E_x}{dt^2}}$ — Projection (l'homme moyen)</h3>
+                <p>
+                Phase IV is the interface.
+                <br><br>
+                The <strong>average man</strong> is a projection of the latent space onto a readable axis.
+                $\bar{E}$ is the mean path.
+                <br><br>
+                <strong>$z$ is the substance.</strong>
+                It measures how far the system can wander from the mean
+                without exiting its basin.
+                <br><br>
+                Antifragility lives here:
+                perturbation enlarges the basin.
+                Reflexes move from System 2 to System 1.
+                Muscle, bone, timing—all thicken the walls.
+                </p>
+
+                <h3>5. EC: $\int E_x\, dt + \epsilon_x t + C_x$ — Animated Landscape</h3>
+                <p>
+                The ecosystem is the landscape brought to life.
+                <br><br>
+                Fruit is eaten (pericarp).<br>
+                Seeds are dispersed (endocarp).<br>
+                Waste becomes fertilizer (mesocarp).
+                <br><br>
+                The basins themselves shift.
+                Organisms do not merely descend;
+                they <em>reshape the terrain for future descent</em>.
+                <br><br>
+                Justice enters here:
+                who bears the cost of perturbation,
+                and who benefits from the reshaped landscape?
+                </p>
+
+                <p style="margin-top: 30px;"><em>
+                We do not live in landscapes.
+                We live in the basins our motion reveals.
+                </em></p>
+
+                </div>
+              </section>
+
 
 
   </main>
